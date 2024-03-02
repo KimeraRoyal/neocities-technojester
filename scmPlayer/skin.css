@@ -1,0 +1,149 @@
+:root
+{
+  --bar-texture: url(bar.png);
+  --main-texture: url(main.png);
+  --play-button-texture: url(playBtn.png);
+  --knob-texture: url(sizerAndVol.png);
+}
+
+#player, #player a
+{
+  color: #4f0e83;
+}
+
+#player
+{
+  background: var(--knob-texture);
+  background-position: bottom !important;
+  background-repeat: repeat-x !important;
+}
+
+#player .mainImage
+{
+  background: var(--main-texture);
+}
+
+#player #baseLeft
+{
+  width: 93px;
+}
+
+#player #baseRight
+{
+  width: 145px;
+}
+
+#player .button
+{
+  width: 22px;
+}
+
+#player #play
+{
+  background: var(--play-button-texture);
+}
+
+#player #play, #player #pause
+{
+  left: 32px;
+}
+
+#player #previous
+{
+  left: 8px;
+}
+
+#player #next
+{
+  left: 55px;
+}
+
+#player #title
+{
+  left: 95px;
+}
+
+#player #tooltip
+{
+  right: 196px;
+}
+
+#player #timer
+{
+  right: 122px;
+}
+
+#player #list
+{
+  right: 5px;
+}
+
+#player #list
+{
+  right: 5px;
+}
+
+#player #seeker
+{
+  right: 320px;
+}
+
+#player #seekerBase
+{
+  border-color: #4f0e83;
+}
+
+#player #seekerBuffered
+{
+  background-color: #daabff;
+}
+
+#player #seekerSliderBase
+{
+  background-color: #4f0e83;
+}
+
+#player #volume
+{
+  width: 70px;
+  right: 33px;
+}
+
+#player #volumeSlider
+{
+  width: 14px;
+  
+  background: var(--knob-texture);
+}
+
+#playlist, #playlist .module, #playlist h3
+{
+  border-color: #7f23c8;
+  
+  color: #4f0e83;
+}
+
+#playlist h3
+{
+  background: var(--bar-texture);
+  background-repeat: repeat-x !important;
+  
+  color: #fff;
+}
+
+#playlist .even
+{
+  background-color: #fff;
+}
+
+#playlist .odd
+{
+  background-color: #ecd3ff;
+}
+
+#playlist .focus
+{
+  background-color: #4f0e83;
+  
+  color: #fff;
+}
